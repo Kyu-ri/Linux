@@ -1,0 +1,164 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BIN	./Makefile	/^BIN          = .\/bin$/;"	m
+BIN	./src/gpio/Makefile	/^BIN        = .\/bin$/;"	m
+BIN	./src/main/Makefile	/^BIN        = .\/bin$/;"	m
+BIN	./src/util/Makefile	/^BIN        = .\/bin$/;"	m
+BOOL_FALSE	./src/gpio/src/dev_control.c	11;"	d	file:
+BOOL_TRUE	./src/gpio/src/dev_control.c	12;"	d	file:
+BUFFER_SIZE	./src/gpio/src/dev_control.c	9;"	d	file:
+CC	./Makefile	/^CC           = cc$/;"	m
+CC	./src/gpio/Makefile	/^CC         =  gcc$/;"	m
+CC	./src/main/Makefile	/^CC         =  gcc$/;"	m
+CC	./src/util/Makefile	/^CC         =  gcc$/;"	m
+CFLAGS	./Makefile	/^CFLAGS       = $(DEFINES) $(OPT) $(DEBUG_OPT)$/;"	m
+CFLAGS	./src/gpio/Makefile	/^CFLAGS     = $(DEFINES) $(OPT) $/;"	m
+CFLAGS	./src/main/Makefile	/^CFLAGS     = $(DEFINES) $(OPT) $/;"	m
+CFLAGS	./src/util/Makefile	/^CFLAGS     = $(DEFINES) $(OPT) $/;"	m
+DEBUG_OPT	./Makefile	/^DEBUG_OPT    = -DDEBUG -DDISPLAY $/;"	m
+DEBUG_OPT	./src/gpio/Makefile	/^DEBUG_OPT  = -DDEBUG$/;"	m
+DEBUG_OPT	./src/main/Makefile	/^DEBUG_OPT  = -DDEBUG$/;"	m
+DEBUG_OPT	./src/util/Makefile	/^DEBUG_OPT  = -DDEBUG$/;"	m
+DEFINES	./Makefile	/^DEFINES      = $/;"	m
+DEFINES	./src/gpio/Makefile	/^DEFINES    =  $/;"	m
+DEFINES	./src/main/Makefile	/^DEFINES    =  $/;"	m
+DEFINES	./src/util/Makefile	/^DEFINES    =  $/;"	m
+GPIO	./Makefile	/^GPIO		 = $(SRC)\/gpio$/;"	m
+HDR	./Makefile	/^HDR          = .\/hdr$/;"	m
+HDR	./src/gpio/Makefile	/^HDR        = .\/hdr$/;"	m
+HDR	./src/main/Makefile	/^HDR        = .\/hdr$/;"	m
+HDR	./src/util/Makefile	/^HDR        = .\/hdr$/;"	m
+HIL_BOOL	./hdr/HIL_types.h	/^typedef int              HIL_BOOL; $/;"	t
+HIL_DLLEXPORT	./hdr/HIL_types.h	78;"	d
+HIL_DLLEXPORT	./hdr/HIL_types.h	81;"	d
+HIL_DLLIMPORT	./hdr/HIL_types.h	79;"	d
+HIL_DLLIMPORT	./hdr/HIL_types.h	82;"	d
+HIL_E_BADARGUMENTS	./hdr/HIL_defs.h	92;"	d
+HIL_E_CHECKSUM_ERR	./hdr/HIL_defs.h	96;"	d
+HIL_E_FAIL	./hdr/HIL_defs.h	80;"	d
+HIL_E_FEATURES_ERR	./hdr/HIL_defs.h	98;"	d
+HIL_E_FILE_ERROR	./hdr/HIL_defs.h	93;"	d
+HIL_E_NO_PARAMETER	./hdr/HIL_defs.h	97;"	d
+HIL_E_OUTOFMEMORY	./hdr/HIL_defs.h	91;"	d
+HIL_E_OUT_OF_RANGE	./hdr/HIL_defs.h	95;"	d
+HIL_E_WRONGENDIAN	./hdr/HIL_defs.h	94;"	d
+HIL_FAILED	./hdr/HIL_defs.h	83;"	d
+HIL_FALSE	./hdr/HIL_types.h	64;"	d
+HIL_NULL	./hdr/HIL_types.h	66;"	d
+HIL_N_INEF	./hdr/HIL_defs.h	79;"	d
+HIL_N_SUCC	./hdr/HIL_defs.h	78;"	d
+HIL_RESULT	./hdr/HIL_types.h	/^typedef u32              HIL_RESULT;$/;"	t
+HIL_SUCCEEDED	./hdr/HIL_defs.h	84;"	d
+HIL_TRUE	./hdr/HIL_types.h	65;"	d
+HIL_W_WARN	./hdr/HIL_defs.h	81;"	d
+HIL_free	./src/util/HIL_mems.s	/^HIL_free:$/;"	l
+HIL_free	./src/util/src/HIL_mems.c	/^HIL_RESULT    HIL_free ( void* npPtr ) $/;"	f
+HIL_malloc	./hdr/HIL_mems.h	49;"	d
+HIL_malloc	./src/util/HIL_mems.s	/^HIL_malloc:$/;"	l
+HIL_malloc	./src/util/hdr/HIL_mems.h	49;"	d
+HIL_malloc	./src/util/src/HIL_mems.c	/^void* HIL_malloc(u32 nSize) $/;"	f
+HIL_mallocTrace	./src/util/src/HIL_mems.c	/^void* HIL_mallocTrace( $/;"	f
+HIL_memcpy	./src/util/HIL_mems.s	/^HIL_memcpy:$/;"	l
+HIL_memcpy	./src/util/src/HIL_mems.c	/^void * HIL_memcpy( $/;"	f
+HIL_memset	./src/util/HIL_mems.s	/^HIL_memset:$/;"	l
+HIL_memset	./src/util/src/HIL_mems.c	/^HIL_RESULT HIL_memset ($/;"	f
+INCLUDES	./src/gpio/Makefile	/^INCLUDES   = -I$(HDR) -I..\/ -I..\/..\/hdr\/ -I\/util\/include -I\/util\/X11\/include$/;"	m
+INCLUDES	./src/main/Makefile	/^INCLUDES   = -I$(HDR) -I..\/ -I..\/..\/hdr\/ -I\/util\/include -I\/util\/X11\/include$/;"	m
+INCLUDES	./src/util/Makefile	/^INCLUDES   = -I$(HDR) -I..\/ -I..\/..\/hdr\/ -I\/util\/include -I\/util\/X11\/include$/;"	m
+IS_FAILED	./src/gpio/src/dev_control.c	17;"	d	file:
+IS_SUCCEEDED	./src/gpio/src/dev_control.c	18;"	d	file:
+LD_OBJ	./src/gpio/Makefile	/^LD_OBJ     = ..\/..\/obj$/;"	m
+LD_OBJ	./src/main/Makefile	/^LD_OBJ     = ..\/..\/obj$/;"	m
+LD_OBJ	./src/util/Makefile	/^LD_OBJ     = ..\/..\/obj$/;"	m
+LD_OPT	./Makefile	/^LD_OPT       =$/;"	m
+LD_OPTS	./src/gpio/Makefile	/^LD_OPTS    =$/;"	m
+LD_OPTS	./src/main/Makefile	/^LD_OPTS    =$/;"	m
+LD_OPTS	./src/util/Makefile	/^LD_OPTS    =$/;"	m
+LIBS	./Makefile	/^LIBS         = -L$(LIB_PATH) -lm$/;"	m
+LIBS	./src/gpio/Makefile	/^LIBS       = -lm$/;"	m
+LIBS	./src/main/Makefile	/^LIBS       = -lm$/;"	m
+LIBS	./src/util/Makefile	/^LIBS       = -lm$/;"	m
+LIB_PATH	./Makefile	/^LIB_PATH     =$/;"	m
+Letter	./src/main/hdr/samkukji.h	/^typedef struct Letter {$/;"	s
+Letter	./src/main/hdr/samkukji.h	/^} Letter;$/;"	t	typeref:struct:Letter
+Letter_Information	./src/main/hdr/samkukji.h	/^typedef struct Letter_Information {$/;"	s
+Letter_Information	./src/main/hdr/samkukji.h	/^} Letter_Information;$/;"	t	typeref:struct:Letter_Information
+MAIN	./Makefile	/^MAIN         = $(SRC)\/main$/;"	m
+MAX_PIN	./src/gpio/src/dev_control.c	8;"	d	file:
+MFU_cnt	./src/main/hdr/samkukji.h	/^    u32 MFU_cnt;$/;"	m	struct:Letter_Information
+MFU_letter	./src/main/hdr/samkukji.h	/^    Letter MFU_letter[1000];$/;"	m	struct:Letter_Information
+NULL	./hdr/HIL_types.h	74;"	d
+OBJ	./Makefile	/^OBJ          = .\/obj$/;"	m
+OBJ	./src/gpio/Makefile	/^OBJ        = .\/obj$/;"	m
+OBJ	./src/main/Makefile	/^OBJ        = .\/obj$/;"	m
+OBJ	./src/util/Makefile	/^OBJ        = .\/obj$/;"	m
+OBJS	./src/gpio/Makefile	/^OBJS       = $(OBJ)\/HIL_gpio.o$/;"	m
+OBJS	./src/main/Makefile	/^OBJS       = $(OBJ)\/main.o$/;"	m
+OBJS	./src/util/Makefile	/^OBJS       = $(OBJ)\/HIL_mems.o$/;"	m
+OPT	./Makefile	/^OPT          = -g -v -save-temps$/;"	m
+OPT	./src/gpio/Makefile	/^OPT        = -O$/;"	m
+OPT	./src/main/Makefile	/^OPT        = -O$/;"	m
+OPT	./src/util/Makefile	/^OPT        = -O$/;"	m
+RES_ERROR	./src/gpio/src/dev_control.c	16;"	d	file:
+RES_E_ARGUMENT	./src/gpio/src/dev_control.c	20;"	d	file:
+RES_E_DIRECTION	./src/gpio/src/dev_control.c	22;"	d	file:
+RES_E_EXPORT	./src/gpio/src/dev_control.c	21;"	d	file:
+RES_E_UNEXPORT	./src/gpio/src/dev_control.c	24;"	d	file:
+RES_E_VALUE	./src/gpio/src/dev_control.c	23;"	d	file:
+RES_SUCCESS	./src/gpio/src/dev_control.c	15;"	d	file:
+SRC	./Makefile	/^SRC          = .\/src$/;"	m
+SRC	./src/gpio/Makefile	/^SRC        = .\/src$/;"	m
+SRC	./src/main/Makefile	/^SRC        = .\/src$/;"	m
+SRC	./src/util/Makefile	/^SRC        = .\/src$/;"	m
+SRCS	./src/gpio/Makefile	/^SRCS       = $(SRC)\/HIL_gpio.c$/;"	m
+SRCS	./src/main/Makefile	/^SRCS       = $(SRC)\/main.c$/;"	m
+SRCS	./src/util/Makefile	/^SRCS       = $(SRC)\/HIL_mems.c$/;"	m
+Sentence_Information	./src/main/hdr/samkukji.h	/^typedef struct Sentence_Information {$/;"	s
+Sentence_Information	./src/main/hdr/samkukji.h	/^} Sentence_Information;$/;"	t	typeref:struct:Sentence_Information
+UTIL	./Makefile	/^UTIL		 = $(SRC)\/util$/;"	m
+Word_Information	./src/main/hdr/samkukji.h	/^typedef struct Word_Information {$/;"	s
+Word_Information	./src/main/hdr/samkukji.h	/^} Word_Information;$/;"	t	typeref:struct:Word_Information
+__COMM_H__	./hdr/comm.h	2;"	d
+__HIL_GPIO_H__	./src/gpio/hdr/HIL_gpio.h	2;"	d
+__HIL_defs_h__	./hdr/HIL_defs.h	28;"	d
+__HIL_mems_h__	./hdr/HIL_mems.h	24;"	d
+__HIL_mems_h__	./src/util/hdr/HIL_mems.h	24;"	d
+__HIL_types_win32_h__	./hdr/HIL_types.h	26;"	d
+__SAMKUKJI_H__	./src/main/hdr/samkukji.h	2;"	d
+assert	./src/main/main.s	/^assert:$/;"	l
+assert	./src/main/src/main.c	/^void assert(HIL_RESULT result) {$/;"	f
+character	./src/main/hdr/samkukji.h	/^    u8 character[2];$/;"	m	struct:Letter
+filename	./src/main/hdr/samkukji.h	/^    u8 filename[50];$/;"	m	struct:Word_Information
+gpio_read	./src/gpio/HIL_gpio.s	/^gpio_read:$/;"	l
+gpio_read	./src/gpio/src/HIL_gpio.c	/^HIL_RESULT gpio_read(u32 pin, u32 *value) {$/;"	f
+gpio_write	./src/gpio/HIL_gpio.s	/^gpio_write:$/;"	l
+gpio_write	./src/gpio/src/HIL_gpio.c	/^HIL_RESULT gpio_write(u32 pin, u32 value) {$/;"	f
+letter_avg	./src/main/hdr/samkukji.h	/^    u32 letter_avg;$/;"	m	struct:Sentence_Information
+letter_cnt	./src/main/hdr/samkukji.h	/^    u32 letter_cnt[11172];$/;"	m	struct:Letter_Information
+light_on	./src/gpio/src/dev_control.c	/^uint32_t light_on(uint32_t pin_number) {$/;"	f
+main	./src/main/main.s	/^main:$/;"	l
+main	./src/main/src/main.c	/^s32 main(s32 argc, s8 **argv) {$/;"	f
+print_full_usage	./src/main/main.s	/^print_full_usage:$/;"	l
+print_full_usage	./src/main/src/main.c	/^void print_full_usage() {$/;"	f
+print_usage	./src/main/main.s	/^print_usage:$/;"	l
+print_usage	./src/main/src/main.c	/^void print_usage() {$/;"	f
+ps16	./hdr/HIL_types.h	/^typedef s16*             ps16;    $/;"	t
+ps32	./hdr/HIL_types.h	/^typedef s32*             ps32;    $/;"	t
+ps8	./hdr/HIL_types.h	/^typedef s8*              ps8;    $/;"	t
+pu16	./hdr/HIL_types.h	/^typedef u16*             pu16;    $/;"	t
+pu32	./hdr/HIL_types.h	/^typedef u32*             pu32;$/;"	t
+pu8	./hdr/HIL_types.h	/^typedef u8*              pu8;$/;"	t
+s16	./hdr/HIL_types.h	/^typedef signed short     s16;$/;"	t
+s32	./hdr/HIL_types.h	/^typedef signed long      s32;$/;"	t
+s8	./hdr/HIL_types.h	/^typedef signed char      s8;$/;"	t
+total_cnt	./src/main/hdr/samkukji.h	/^    u32 total_cnt;$/;"	m	struct:Letter_Information
+total_cnt	./src/main/hdr/samkukji.h	/^    u32 total_cnt;$/;"	m	struct:Sentence_Information
+total_cnt	./src/main/hdr/samkukji.h	/^    u32 total_cnt;$/;"	m	struct:Word_Information
+u16	./hdr/HIL_types.h	/^typedef unsigned short   u16;$/;"	t
+u32	./hdr/HIL_types.h	/^typedef unsigned long    u32;$/;"	t
+u8	./hdr/HIL_types.h	/^typedef unsigned char    u8;$/;"	t
+word_avg	./src/main/hdr/samkukji.h	/^    u32 word_avg;$/;"	m	struct:Sentence_Information
